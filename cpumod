@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+cpupower frequency-set -g schedutil  && cpupower frequency-set --max 3.20GHz && cpupower set -b 0 

@@ -3,7 +3,7 @@ Full Form **CPU Schecutil Governor**. It't basically a systemd service to set In
 NOTE: It's only meant for Intel CPUs using intel_cpufreq driver
 # Installation
 ## Get PKGBUILD
-$ ``` curl -L https://raw.githubusercontent.com/humanbeing27/plymouth-theme-arch-spinner/main/PKGBUILD -o ./PKGBUILD ```
+$ ``` curl -L https://raw.githubusercontent.com/humanbeing27/cpusdg/main/PKGBUILD -o ./PKGBUILD ```
 ## Build and Install
 $ ``` makepkg -sircC ```
 # Enabling the Service

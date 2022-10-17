@@ -1,4 +1,4 @@
-Full Form **CPU Schecutil Governor**. It't basically a systemd service to switch to schedutil CPU frequency governor during boot.
+Full Form **CPU Schecutil Governor**. It't basically a systemd service to set Intel Perf Bias to Highest Performant Possible, Set Highest Possible Frequency from /sys directory and switch to schedutil CPU frequency governor during boot.
 
 NOTE: ITS ONLY MEANT FOR INTEL CPUs.
 # Installation

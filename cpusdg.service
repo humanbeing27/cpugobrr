@@ -1,0 +1,6 @@
+[Unit]
+Description=cpusdg
+[Service]
+ExecStart=/usr/bin/cpumod
+[Install]
+WantedBy=basic.target

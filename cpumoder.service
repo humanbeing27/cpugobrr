@@ -1,6 +1,0 @@
-[Unit]
-Description=CPU go brrrrrrrrrrrrrrrrrrr
-[Service]
-ExecStart=/bin/cpumod
-[Install]
-WantedBy=basic.target

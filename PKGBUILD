@@ -7,7 +7,7 @@ arch=(any)
 license=("GPLv3")
 depends=("systemd"
          "cpupower")
-source=("https://raw.githubusercontent.com/humanbeing27/$pkgname/main/cpugobrr",
+source=("https://raw.githubusercontent.com/humanbeing27/$pkgname/main/cpugobrr"
 "https://raw.githubusercontent.com/humanbeing27/$pkgname/main/cpugobrr.service"
 )
 b2sums=("SKIP"

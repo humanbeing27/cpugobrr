@@ -1,6 +1,6 @@
 [Unit]
-Description=cpusdg
+Description=CPU go brrrrrrrrrrrrr
 [Service]
-ExecStart=/usr/bin/cpusdg
+ExecStart=/usr/bin/cpugobrr
 [Install]
 WantedBy=basic.target

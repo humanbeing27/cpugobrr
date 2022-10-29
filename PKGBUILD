@@ -13,13 +13,9 @@ source=("https://raw.githubusercontent.com/humanbeing27/$pkgname/main/cpugobrr"
 b2sums=("SKIP"
         "SKIP")
 package() {
-mkdir $pkgdir/usr
-mkdir $pkgdir/usr/bin
-install -g root -o root cpugobrr $pkgdir/usr/bin/
-chmod +x $pkgdir/usr/bin/cpugobrr
-mkdir $pkgdir/etc
-mkdir $pkgdir/etc/systemd
-mkdir $pkgdir/etc/systemd/system
-install -g root -o root cpugobrr.service $pkgdir/etc/systemd/system
-echo "Please enable the service(cpugobrr.sevice) and restart."
+       mkdir -p $pkgdir/usr/bin
+       install -g root -o root cpugobrr $pkgdir/usr/bin/
+       chmod +x $pkgdir/usr/bin/cpugobrr
+       mkdir -p $pkgdir/etc/systemd/system
+       install -g root -o root cpugobrr.service $pkgdir/etc/systemd/system
 }

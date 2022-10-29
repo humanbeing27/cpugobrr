@@ -9,4 +9,4 @@ $ ``` makepkg -sircC ```
 # Enabling the Service
 #``` systemctl enable cpugobrr ```
 
-$``` reboot ```
+Then Reboot after that.

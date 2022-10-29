@@ -3,7 +3,7 @@ pkgver=1
 pkgrel=2
 pkgdesc="A systemd service to switch to schedutil CPU frequency governor during boot." 
 url="https://github.com/humanbeing27/cpugobrr"
-arch=(any)
+arch=(x86_64)
 license=("GPLv3")
 depends=("systemd"
          "cpupower")

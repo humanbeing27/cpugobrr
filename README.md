@@ -2,10 +2,14 @@ It's basically a systemd service to set Intel Perf Bias to Highest Performant Po
 
 NOTE: It's only meant for Intel CPUs using **intel_cpufreq** driver.
 # Installation
-## Get PKGBUILD
+### Via Building
 $ ``` curl -L https://raw.githubusercontent.com/humanbeing27/cpugobrr/main/PKGBUILD -o ./PKGBUILD ```
-## Build and Install
+
 $ ``` makepkg -sircC ```
+### Via Prebuilt package
+The package is available in Releases. Download it and run the following command in directory of download :
+
+#```pacman -U ./cpugobrr-2-1-x86_64.pkg.tar.zst ``
 # Enabling the Service
 #``` systemctl enable cpugobrr ```
 

@@ -3,7 +3,7 @@ It's basically a systemd service to set Intel Perf Bias to Highest Performant Po
 NOTE: It's only meant for Intel CPUs using **intel_cpufreq** driver.
 # Installation
 ### Via Building
-$ ``` curl -L https://raw.githubusercontent.com/humanbeing27/cpugobrr/main/PKGBUILD -o ./PKGBUILD ```
+$ ``` curl -L https://github.com/humanbeing27/cpugobrr/raw/main/PKGBUILD -o ./PKGBUILD ```
 
 $ ``` makepkg -sircC ```
 ### Via Prebuilt package

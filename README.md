@@ -15,6 +15,6 @@ sudo pacman -U ./cpugobrr-1-2-x86_64.pkg.tar.zst
 ```
 # Enabling the Service
 ```sh 
-systemctl enable cpugobrr 
+sudo systemctl enable cpugobrr 
 ```
 Then Reboot after that.

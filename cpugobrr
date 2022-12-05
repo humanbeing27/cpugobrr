@@ -2,6 +2,6 @@
 cfreq=$(cat /sys/bus/cpu/devices/cpu0/cpufreq/cpuinfo_max_freq)
 cfreqmhz=$(awk -v n=$cfreq 'BEGIN {printf "%.4f\n", (n/1000)}') 
 cfreqghz=$(awk -v n=$cfreqmhz 'BEGIN {printf "%.4f\n", (n/1000)}') 
-cpupower frequency-set -g schedutil
+cpupower frequency-set -g performance
 cpupower frequency-set --max "$cfreqghz"GHz
 cpupower set -b 0

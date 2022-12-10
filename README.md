@@ -1,6 +1,6 @@
-It's basically a systemd service to set Intel Perf Bias to Highest Performant Possible, Set Highest Possible Frequency from /sys directory and switch to schedutil CPU frequency governor during boot.
+It's basically a systemd service to set Intel Perf Bias to Highest Performant Possible, Set Highest Possible Frequency from /sys directory and switch to Schedutil CPU frequency governor during boot.
 
-NOTE: It's only meant for Intel CPUs using **intel_cpufreq** driver.
+NOTE: It's only meant for Intel CPUs using **intel_cpufreq** and **intel_pstate** driver.
 # Installation
 ### Via Building
 ```sh 

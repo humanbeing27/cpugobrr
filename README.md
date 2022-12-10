@@ -8,6 +8,11 @@ git clone https://github.com/humanbeing27/cpugobrr.git
 cd cpugobrr
 makepkg -sircCf
  ```
+ ### Via Prebuilt package
+The package is available in Releases. Download it and run the following command in directory of download :
+```sh
+sudo pacman -U ./cpugobrr-1-2-x86_64.pkg.tar.zst 
+```
 # Enabling the Service
 ```sh 
 sudo systemctl enable cpugobrr 
